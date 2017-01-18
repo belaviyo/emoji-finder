@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="Content/Reset.css" rel="stylesheet" />
+    <link href="Content/Options.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="optionItemWrapper">
+        <h2>Recents</h2>
+        <h4>Number of recently used emoji to display.</h4>
+        <ul class="itemList recentNumberList" id="recentOption">
+            <li id="NoneOption">NONE</li>
+            <li class="recentNumberList-active" id="defultRecentItem">10</li>
+            <li id="TwentyOption">20</li>
+            <li id="ThirtyOption">30</li>
+            <li id="FortyOption">40</li>
+            <li id="FiftyOption">50</li>
+        </ul>
+        <div style="clear:both"></div>
+
+    </div>
+    <div class="optionItemWrapper">
+        <h2>Panel Icon Size</h2>
+        <h4>Size of the emoji icons within this extension panel.</h4>
+        <ul class="itemList fontOptionList" id="fontOption">
+            <li id="SmallSize">SMALL</li>
+            <li id="NormalSize">NORMAL</li>
+            <li id="LargeSize" class="fontOptionList-active">LARGE</li>
+        </ul>
+        <div style="clear:both"></div>
+
+    </div>
+    <script src="Script/Options.js"></script>
+</body>
+</html>
